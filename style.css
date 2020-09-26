@@ -4,12 +4,12 @@ body {
   line-height: 1;
 }
 
+/* //padding is still weird here, and this is why you moved the border to the time block instead */
 textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
-
   padding: 10px;
 }
 

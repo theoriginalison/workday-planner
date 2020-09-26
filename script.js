@@ -4,17 +4,20 @@ var saveBtn = $("#saveBtn");
 var textarea = $("textarea");
 var description = $(".description");
 
-var NOW = moment().format();
+//NOW YOU ONLY NEED THE HOUR! :D
+var NOW = moment().format("HH");
 
 console.log(NOW);
 
 //if the current time is within the same hour, else
-if (NOW === 21:35:52-04:00) {
-    console.log("it's that v specific time")
-    
-}
-else {
-    console.log("it's not that time rn")
+//can the time be stringified and put in an array for easier comparison? Like, comparing the xth in the array
+
+//need to either turn the string into a value or...? Need to add a function bc it's comparing every hour, something that iterates through and checks
+
+if (NOW === "11:00") {
+  console.log("it's that v specific time");
+} else {
+  console.log("it's not that time rn");
 }
 
 //to make past time
