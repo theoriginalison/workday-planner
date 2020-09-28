@@ -6,13 +6,14 @@ var description = $(".description");
 
 //NOW YOU ONLY NEED THE HOUR! :D
 var NOW = moment().format("HH");
+var today = moment().format("dddd") + ", " + moment().format("MMMM Do");
 
+console.log(today);
 console.log(NOW);
 
-//if the current time is within the same hour, else
-//can the time be stringified and put in an array for easier comparison? Like, comparing the xth in the array
+$("#currentDay").append(today);
 
-//need to either turn the string into a value or...? Need to add a function bc it's comparing every hour, something that iterates through and checks
+//if the current time is within the same hour, else
 
 if (NOW === "11:00") {
   console.log("it's that v specific time");
