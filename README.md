@@ -2,7 +2,7 @@
 
 Homework for Week 5
 
-[LINK TO PAGE](linkhere)
+[LINK TO PAGE](https://theoriginalison.github.io/workday-planner/)
 
 index.html
 ![Screenshot of Planner at the end of the work day](./assets/planner-screenshot.png)
@@ -24,6 +24,7 @@ index.html
 
 - Template/String literals! My tutor taught this to me, and I had someone explain it in office hours to make sure that I understood it. Basically, this is an easier way to write a string and plug variables in-- they fill automatically, so you don't have to use string concatenation or list, in this case id=10, id=9, etc.
 - property in a template literal was a bit of a mind melt at first, but this is used to put the locally stored information back into the relative text areas-- it does this by reading the timeID first, and then adding the corresponding text area. Magic!
+- Double-check the CSS (and really, all files) before submitting. I made notes to myself about not knowing where the "time-block" class went, and at the end, I figured it out (in the little block with the time). This seems like a silly mistake and something simple, but what I took from this is the importance of double (triple, quadrouple) checking work, and making comments for myself along the way. (See any previous versions before "Final" to see ALL the comments in my JS! Sometimes I even leave myself encouraging notes and console.logs.)
 
 ## Further features for next time
 

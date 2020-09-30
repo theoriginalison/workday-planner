@@ -4,7 +4,6 @@ body {
   line-height: 1;
 }
 
-/* //padding is still weird here, and this is why you moved the border to the time block instead */
 textarea {
   background: transparent;
   border: none;
@@ -21,12 +20,10 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-/* what does this go to? */
 .description {
   white-space: pre-wrap;
 }
 
-/* what does this go to? */
 .time-block {
   text-align: center;
   border-radius: 15px;
