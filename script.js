@@ -1,4 +1,8 @@
 var NOW = parseInt(moment().format("HH"));
+console.log(NOW)
+//remove before final!!
+NOW -= 5
+console.log(NOW)
 var today = moment().format("dddd") + ", " + moment().format("MMMM Do");
 
 var task = JSON.parse(localStorage.getItem("task")) || {};
@@ -11,9 +15,9 @@ for (let index = 0; index < times.length; index++) {
   if (NOW > parseInt(times[index])) {
     $(`#${times[index]}`).removeClass("present future");
   } else if (NOW < parseInt(times[index])) {
-    $(".description").removeClass("present past");
+    $(`#${times[index]}`).removeClass("present past");
   } else {
-    $(".description").removeClass("past future");
+    $(`#${times[index]}`).removeClass("past future");
   }
 }
 
